@@ -1,0 +1,121 @@
+/* Con un asterisco se modifica todos los estilos de todos los elementos del html */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/fondo.jpg");
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.userlogin {
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px solid rgb (756, 253, 16);
+    margin-top: 10%;
+    text-align-last: center;
+}
+
+.title {
+    text-align: center;
+    font-family: Roboto;
+    text-transform: opercase;
+    font-size: 15px;
+    padding-top: 15px;
+    color: aqua;
+}
+
+.title h1 {
+    color: blue;
+}
+
+.userId {
+    padding-top: 15px;
+}
+
+.userId h4 {
+    font-family: Roboto, arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userId input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.password h4 {
+    font-family: Roboto, arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.password input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.botton {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.botton botton {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: aqua;
+    color: black;
+}
+
+.botton img {
+    float: left;
+    width: 30px;
+    height: 30px;
+
+}
+
+.botton p {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: opercase;
+    font-family: Roboto;
+}
+
+a {
+    margin-top: 15px;
+    float: left;
+    color: black;
+}
+
+h5 {
+    margin-top: 15px;
+    font-size: 15px;
+    display:none
+}
